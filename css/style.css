@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ position: relative;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+a{
+    display: inline-block;
+    transition: all ease .6s;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 2px solid #eaeef9;
+}
+header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+header .navbar-brand img {
+    width: 80px;
+}
+header button span i{
+    color: #000;
+    font-size: 24px;
+}
+header .nav-link {
+    color: #021032;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    font-size: 13px;
+    transition: all ease .6s;
+}
+header .nav-link:hover {
+    border-bottom: 2px solid #0f2f8f;
+}
+header .special {
+    margin-left: 20px;
+}
+header .special a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: #f38120;
+    padding: 8px 13px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all ease .6s;
+}
+header .special a:hover{
+    opacity: .9;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1), 0 10px 30px rgba(0,0,0,.2);
+    color: #fff;
+    text-decoration: none;
+}
+/* header end */
+.banner{}
+.banner .banner_left{}
+.banner .banner_left img{}
+.banner .banner_right {
+    margin-left: 50px;
+}
+.banner .banner_right h1{}
+.banner .banner_right p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.mr-40{
+    margin-top: 40px;
+}
+
+.p1r{
+    padding: 1rem;
+}
+
+.p2r{
+    padding: 1rem;
+}
+
+.m1r{
+    margin: 1rem;
+}
+
+.m2r{
+    margin: 2rem;
+}
+
+.common_button a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #f38120;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all ease .6s;
+}
+
+.banner__title{
+    font-size: 30px;
+}
+
+.banner__sec__title{
+    padding: .5rem 0;
+}
+
+/* banner end */
+
+
+.common_text {
+    margin-bottom: 40px;
+}
+.common_text h2{
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 15px;
+}
+.common_text h2::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  width: 150px;
+  height:3px;
+  background: red;
+  bottom: 0;
+  margin: auto;
+}
+.front {
+    padding: 60px 0;
+    background: #F2F2F2;
+}
+.front .front_inner {
+    width: 60%;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+.front h2{
+    text-transform: uppercase;
+}
+.front h4 {
+    font-size: 120px;
+}
+
+.front h5{
+    font-size: 1.25rem;
+}
+
+/* front end */
+
+
+.repair{
+    padding: 60px 0;
+}
+
+/* repair end */
+
+
+.screen{
+    padding: 60px 0;
+    background: #f0f0f0;
+}
+.screen p {
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.screen p:last-child{
+    margin-bottom: 0;
+}
+/* screen end */
+
+
+.components{
+    padding: 60px 0;
+}
+.components .common_text {
+    margin-bottom: 80px;
+}
+.components .common_text p{
+    font-size: 18px;
+    width: 75%;
+    margin: auto;
+}
+.components .common_text h2 {
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.components_2 {
+    background: #f1f1f1;
+}
+.components .step_item0 {
+    position: relative;
+    padding: 25px 40px;
+    background: #fff;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 4px 24px 2px rgba(0,0,0,.1);
+}
+.components .step_item0 span {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #f38120;
+    border-radius: 4px;
+    padding: 2px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+}
+
+.components .step_item0 p{
+    margin-bottom: 0;
+}
+.components .step_img0{}
+.components .step_img0 img {
+    width: 400px;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+
+/* components end */
+
+.step{
+    padding: 60px 0;
+}
+.step .step_item {
+    padding: 40px 30px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    border-radius: 10px;
+}
+.step .common_text{}
+.step .common_text h2{
+    margin-bottom: 20px;
+}
+.step .common_text p{
+    font-size: 18px;
+    max-width: 90%;
+    margin: auto;
+}
+.step .tep_left{
+}
+.step .tep_left img {
+    border-radius: 4px;
+    padding-right: 30px;
+}
+.step .tep_right h4 {
+    margin-bottom: 20px;
+}
+.step .tep_right p{}
+.step .tep_right p:last-child{
+    margin-bottom: 0;
+}
+
+.step  .step_item_2 .tep_left img{
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+
+.server_step{
+    padding: 60px 0;
+    background: #f2f2f2;
+}
+.server_step .server_single {
+    border-bottom: 2px dashed #f38120;
+    padding: 40px 80px;
+
+}
+.server_step .server_single:last-child{
+    border: none;
+}
+.server_step .server_left{}
+.server_step .server_left img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.server_step .server_left{}
+.server_step .server_left h4{}
+.server_step .server_left p{
+    margin-bottom: 0;
+}
+
+
+.title__tag{
+    font-weight: bold; 
+    color: red;
+    font-size: 24px; 
+}
+
+.title__tag__sec{
+    font-weight: bold; 
+    color: #5b32b4;
+    font-size: 24px; 
+}
+
+.step__desc__container{
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.step__desc__container > ul > li
+{
+    margin-bottom: 1rem;
+    list-style: circle;
+    margin-left: 1rem;
+}
+
+.custom__list > li{
+    margin-left: 3rem;
+}
+
+/* .server_step end */
+
+/* paypal section */
+.paypal__checkout__btn{
+    width: 300px;
+}
+
+.paypal__container{
+    padding: 3rem 0;
+}
+/* end paypal section */
+
+
+footer{
+    background-color: #212529;
+    padding: 20px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+}
