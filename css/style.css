@@ -349,7 +349,7 @@ header .special a:hover{
 
 /* paypal section */
 .paypal__checkout__btn{
-    width: 300px;
+    width: 300px !important;
 }
 
 .paypal__container{
