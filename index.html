@@ -21,8 +21,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <!-- Responsive midea css -->
     <link rel="stylesheet" href="css/media.css">
+
     <title>Fixmybrokenscreen.co.uk</title>
 </head>
 
@@ -329,9 +334,48 @@
             <div class="common_text text-center">
                 <h2>HOW DO WE DO THIS REPAIR</h2>
             </div>
-            <img src="img/img_2.png" alt="img" class="img-fluid">
+            <!-- <img src="img/img_2.png" alt="img" class="img-fluid"> -->
+
+            <div class="row">
+
+                <div class="col">
+                    <img src="img/repair/1.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="img/repair/2.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="img/repair/3.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col">
+                    <img src="img/repair/4.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col mt-4">
+                    <img src="img/repair/5.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col mt-4">
+                    <img src="img/repair/6.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col mt-4">
+                    <img src="img/repair/7.jpg" alt="img" class="img-fluid">
+                </div>
+
+                <div class="col mt-4">
+                    <img src="img/repair/8.jpg" alt="img" class="img-fluid">
+                </div>
+
+            </div>
+
+
         </div>
-        <!-- container end -->
+    </div>
+    <!-- container end -->
     </div>
     <!-- repair end -->
     <!-- screen start -->
@@ -571,6 +615,33 @@
     </div>
     <!-- step end -->
 
+    <!-- Swiper -->
+
+    <div class="swiper__wrapper">
+
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 10</div>
+            </div>
+
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+        </div>
+
+    </div>
+
 
     <footer class="text-center">
         <p class="m-0">Copyright © <span id="date_years"></span>. <a href="https://fixmybrokenscreen.co.uk/">Fixmybrokenscreen</a> - All Rights Reserved.</p>
@@ -580,10 +651,50 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+
     <script>
         var d = new Date();
         document.getElementById("date_years").innerHTML = d.getFullYear();
     </script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            speed: 3000,
+            autoplay: {
+                delay: 1000
+            },
+            paginationClickable: true,
+            parallax: true,
+            autoplayDisableOnInteraction: false,
+            loop: true,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // Responsive breakpoints
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                }
+            }
+        });
+    </script>
+
 </body>
 
 </html>
