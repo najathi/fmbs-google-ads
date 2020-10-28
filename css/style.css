@@ -527,7 +527,7 @@ header .special a:hover {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    /* cursor: grab; */
+    cursor: grab;
     border-radius: 10px;
     background-color: #e0e6e8;
 }
@@ -588,8 +588,9 @@ header .special a:hover {
     cursor: pointer !important;
 }
 
-.swiper__bottom__icon i {
+.swiper__bottom__icon {
     text-align: right;
+    color: #fff;
 }
 
 .swiper__bottom__links {
