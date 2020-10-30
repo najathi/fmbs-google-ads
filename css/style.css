@@ -441,9 +441,9 @@ header .special a:hover {
 .server_step .server_left {}
 
 .server_step .server_left img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 350px;
+    height: 400px;
+    /* border-radius: 50%; */
 }
 
 .server_step .server_left {}
@@ -600,6 +600,12 @@ header .special a:hover {
 }
 
 
+/* stage start */
+
+
+/*  stage end */
+
+
 /* end swiper */
 
 footer {
@@ -610,4 +616,12 @@ footer {
 footer p {
     color: #fff;
     font-size: 15px;
+}
+
+.footer__link {
+    color: #f38120;
+}
+
+.footer__link:hover {
+    color: #ccc;
 }
