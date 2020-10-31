@@ -531,7 +531,7 @@ header .special a:hover {
 }
 
 .swiper__slide_container {
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
 }
 
@@ -544,7 +544,7 @@ header .special a:hover {
     height: 3px;
     width: 2rem;
     background-color: #000;
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
 }
 
 .swiper__content {
@@ -567,17 +567,16 @@ header .special a:hover {
     padding: 0.5rem 1rem;
     background-color: #f38120;
     border-radius: 0 0 10px 10px;
+    transition: all ease .6s;
+}
+
+.swiper__bottom_container:hover {
+    background-color: #000;
 }
 
 .swiper__bottom_link {
     color: #000;
-    font-weight: 600;
     text-decoration: none;
-    transition: all ease .6s;
-    color: #fff;
-}
-
-.swiper__bottom_link:hover {
     color: #fff;
     transition: all ease .6s;
 }
