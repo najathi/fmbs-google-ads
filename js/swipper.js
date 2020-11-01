@@ -24,6 +24,10 @@ var swiper = new Swiper('.swiper-container', {
             spaceBetween: 30
         },
         640: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        1024: {
             slidesPerView: 3,
             spaceBetween: 30
         }
