@@ -91,6 +91,10 @@
     .replace-image>img {
         height: 280px;
     }
+    .common_button__big a {
+        padding: 16px 10px;
+        font-size: 1.3rem;
+    }
 }
 
 
@@ -150,6 +154,10 @@
     }
     .replace-image>img {
         height: 280px;
+    }
+    .common_button__big a {
+        padding: 16px 10px;
+        font-size: 1.3rem;
     }
 }
 
