@@ -16,6 +16,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -35,7 +36,8 @@ ul {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -220,6 +222,7 @@ header .special a:hover {
 }
 
 .screen p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     width: 80%;
     margin: auto;
@@ -312,7 +315,9 @@ header .special a:hover {
     margin-bottom: 0;
 }
 
-.components .step_img0 {}
+.components .step_img0 {
+    width: auto;
+}
 
 .components .step_img0 img {
     width: 400px;
@@ -327,6 +332,11 @@ header .special a:hover {
 .component__image {
     height: 300px;
     width: 100vh;
+}
+
+.replace-image>img {
+    height: 320px;
+    width: auto;
 }
 
 
@@ -446,7 +456,9 @@ header .special a:hover {
 
 .server_step .server_left {}
 
-.server_step .server_left h4 {}
+.server_step .server_left h4 {
+    text-align: left;
+}
 
 .server_step .server_left p {
     margin-bottom: 0;
