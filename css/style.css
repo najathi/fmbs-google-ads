@@ -152,10 +152,51 @@ header .special a:hover {
     background-color: #002d40;
 }
 
+.common_button__round a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #f15a56;
+    padding: 12px 30px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all ease .6s;
+}
+
+.common_button__round a:hover {
+    background-color: #002d40;
+}
+
+.common_button__whatsapp a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #25d366;
+    padding: 12px 30px;
+    border-radius: 25px;
+    /* display: inline-block; */
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .6s;
+}
+
+.common_button__whatsapp a:hover {
+    background-color: #002d40;
+}
+
+.whatsapp_icon {
+    font-size: 1.5rem;
+}
+
 .common_button__big a {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
     font-size: 1.5rem;
     background: #f15a56;
     padding: 16px 30px;
@@ -203,7 +244,7 @@ header .special a:hover {
 
 .front {
     padding: 60px 0;
-    background: #F2F2F2;
+    background: #f1d74e;
 }
 
 .front .front_inner {
