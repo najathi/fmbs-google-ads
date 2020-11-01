@@ -155,7 +155,7 @@ header .special a:hover {
 .common_button__round a {
     color: #fff;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 18px;
     background: #f15a56;
     padding: 12px 30px;
@@ -394,9 +394,23 @@ header .special a:hover {
     width: 100vh;
 }
 
+.cmp_step__price {
+    font-size: 70px;
+}
+
 .replace-image>img {
     height: 320px;
     width: auto;
+}
+
+.row-image-replace {
+    display: flex;
+    justify-content: center;
+}
+
+.replace-img-card img {
+    background-color: #fff;
+    padding: 2rem;
 }
 
 
