@@ -89,11 +89,10 @@
         padding: 2rem;
     }
     .replace-image>img {
-        height: 280px;
-        padding: 1rem;
+        height: 240px;
+        padding: 1rem .5rem;
     }
     .common_button__big a {
-        padding: 16px 10px;
         font-size: 1.3rem;
     }
 }
@@ -154,11 +153,10 @@
         padding: 2rem;
     }
     .replace-image>img {
-        height: 280px;
-        padding: 1rem;
+        height: 240px;
+        padding: 1rem .5rem;
     }
     .common_button__big a {
-        padding: 16px 10px;
         font-size: 1.3rem;
     }
 }
