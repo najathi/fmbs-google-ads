@@ -90,6 +90,7 @@
     }
     .replace-image>img {
         height: 280px;
+        padding: 1rem;
     }
     .common_button__big a {
         padding: 16px 10px;
@@ -154,6 +155,7 @@
     }
     .replace-image>img {
         height: 280px;
+        padding: 1rem;
     }
     .common_button__big a {
         padding: 16px 10px;
