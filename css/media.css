@@ -95,6 +95,9 @@
     .common_button__big a {
         font-size: 1.3rem;
     }
+    .common_button__big_sec a {
+        font-size: 1rem;
+    }
 }
 
 
@@ -159,6 +162,9 @@
     .common_button__big a {
         font-size: 1.3rem;
     }
+    .common_button__big_sec a {
+        font-size: 1rem;
+    }
 }
 
 
@@ -204,6 +210,9 @@
     }
     .replace-arrow {
         padding: 2rem;
+    }
+    .common_button__big_sec a {
+        font-size: 1rem;
     }
 }
 
