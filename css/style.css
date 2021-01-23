@@ -143,11 +143,13 @@ header .special a:hover {
 .bg-w-red {
     background-color: #f15a56;
     border-color: #f15a56;
+    color: #fff;
 }
 
 .bg-w-red:hover {
     background-color: #002d40;
     border-color: #f15a56;
+    color: #fff;
 }
 
 .common_button a {
