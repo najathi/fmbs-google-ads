@@ -136,6 +136,20 @@ header .special a:hover {
     margin: 2rem;
 }
 
+.text-w-red {
+    color: #f15a56;
+}
+
+.bg-w-red {
+    background-color: #f15a56;
+    border-color: #f15a56;
+}
+
+.bg-w-red:hover {
+    background-color: #002d40;
+    border-color: #f15a56;
+}
+
 .common_button a {
     color: #fff;
     font-weight: 600;
