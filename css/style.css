@@ -818,6 +818,8 @@ a:focus {
 #accordion .panel-body {
     padding: 20px 30px;
     background: #f0ced4;
+    background: -webkit-linear-gradient(to right,#f15a56, #f0ced4);
+    background: linear-gradient(to right,#f15a56 #f0ced4);
     border-top: none;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
