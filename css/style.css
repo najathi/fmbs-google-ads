@@ -545,7 +545,7 @@ header .special a:hover {
 
 .server_step {
     padding: 60px 0;
-    background: #f2f2f2;
+    background: #f0f0f0;
 }
 
 .server_step .server_single {
@@ -649,6 +649,15 @@ header .special a:hover {
     cursor: grab;
     border-radius: 10px;
     background-color: #e0e6e8;
+    background: -webkit-linear-gradient(to right,#fff, #e0e6e8);
+    background: linear-gradient(to right,#fff, #e0e6e8);
+    
+}
+
+.swiper-slide-alt {
+    background-color: #95e0ff;
+    background: -webkit-linear-gradient(to right,#41d5f7,#95e0ff);
+    background: linear-gradient(to right,#41d5f7,#95e0ff);
 }
 
 .swiper__slide_container {
