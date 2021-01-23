@@ -278,6 +278,8 @@ header .special a:hover {
 .front {
     padding: 60px 0;
     background: #f1e18d;
+    background: -webkit-linear-gradient(to right,#ceb53b, #f1e18d);
+    background: linear-gradient(to right, #ceb53b, #f1e18d);
 }
 
 .front .front_inner {
