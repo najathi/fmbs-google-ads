@@ -27,6 +27,9 @@
     <!-- Custom css -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Cookie Consent -->
+    <!-- <link rel="stylesheet" href="js/lib/glowCookies/glowCookies.css" /> -->
+
     <!-- Responsive midea css -->
     <link rel="stylesheet" href="css/media.css">
 
@@ -1475,8 +1478,39 @@
     <script src="js/swipper.js "></script>
 
     <!-- glow cookies -->
-    <script src="js/lib/glowCookies/glowCookies.js"></script>
-    <script src="js/cookie.js"></script> 
+    <!-- <script src="js/lib/glowCookies/glowCookies.js"></script> -->
+    <!-- <script src="js/cookie.js"></script> -->
+    
+    <!-- Cookie Consent by https://www.CookieConsent.com -->
+    <script type="text/javascript" src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
+    <script type="text/javascript">
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+        cookieconsent.run({"notice_banner_type":"headline","consent_type":"express","palette":"dark","language":"en","website_name":"Fixmybrokenscreen.co.uk","cookies_policy_url":"https://fixmybrokenscreen.co.uk/privacy-policy"});
+        
+    });
+    </script>
+
+    <noscript>Fixmybrokenscreen.co.uk by <a href="https://fixmybrokenscreen.co.uk">Fixmybrokenscreen.co.uk</a></noscript>
+
+    <script type="text/plain" cookie-consent="strictly-necessary"></script>
+    <script type="text/plain" cookie-consent="functionality"></script>
+    <script type="text/plain" cookie-consent="tracking"></script>
+    <script type="text/plain" cookie-consent="targeting"></script>
+
+    <!-- End Cookie Consent by https://www.CookieConsent.com -->
+
+    <script>
+
+        $(document).ready(function () {
+           
+            document.querySelector('.cc_dialog_headline').innerHTML = "Better Experience";
+            document.querySelector('.cc_dialog_text').innerHTML = `Your experience on this site will be improved by allowing cookies. <a href='https://fixmybrokenscreen.co.uk/privacy-policy' target='_blank'>Privacy Policy</a>`;
+
+        });
+
+    </script>
 
 </body>
 
