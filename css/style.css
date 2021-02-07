@@ -857,6 +857,18 @@ a:focus {
 
 /* pricing end */
 
+/* Cookie Start */
+
+.cc_dialog.headline {
+    top: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+/* Cookie End */
+
+/* Footer Start */
+
 footer {
     background-color: #212529;
     padding: 20px 0;
