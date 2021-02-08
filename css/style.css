@@ -863,6 +863,7 @@ a:focus {
     top: auto !important;
     bottom: 0 !important;
     position: fixed !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 /* Cookie End */
