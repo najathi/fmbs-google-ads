@@ -860,9 +860,9 @@ a:focus {
 /* Cookie Start */
 
 .cc_dialog.headline {
-    top: auto;
-    bottom: 0;
-    position: fixed;
+    top: auto !important;
+    bottom: 0 !important;
+    position: fixed !important;
 }
 
 /* Cookie End */
