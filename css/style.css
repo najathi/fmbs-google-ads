@@ -861,9 +861,13 @@ a:focus {
 
 .cc_dialog.headline {
     top: auto !important;
-    bottom: 0 !important;
+    left: auto !important;
+    right: 16px !important;
+    bottom: 16px !important;
     position: fixed !important;
     background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 1.5rem 2rem !important;
+    border-radius: 10px;
 }
 
 /* Cookie End */
